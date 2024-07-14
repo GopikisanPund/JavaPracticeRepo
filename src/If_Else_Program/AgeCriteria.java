@@ -1,0 +1,24 @@
+package If_Else_Program;
+
+import java.util.Scanner;
+
+public class AgeCriteria {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter Your Age");
+		int age = scanner.nextInt();
+		
+		
+		if (age>=18) 
+		{
+		System.out.println("U are eligible for wote");	
+		}
+		else {
+			System.out.println("You are not eligible for wote");
+		}
+
+	}
+
+}
